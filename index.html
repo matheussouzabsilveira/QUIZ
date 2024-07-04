@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <h1>The coolest quizzzz</h1>
+        <div class="perguntas">
+                <div class="quest">
+                    <h2>Pergunta 1</h2>
+                    <p>Qual o ano de lançamento do desenho rick and morty?</p>
+                </div>
+                <div class="quest">
+                    <h2>Pergunta 2</h2>
+                    <p>Qual o nome do mob em que você tem que matar pra zerar o Minecraft?</p>
+                </div>
+                <div class="quest">
+                        <h2>Pergunta 3</h2>
+                        <p>O gambito da rainha é uma serie sobre qual esporte?</p>
+                </div>
+        </div>
+        <div class="select">
+            <div class="selectbox">
+                <h2>selecione sua resposta</h2>
+                <select id="resposta1">
+                    <option value="0">2000</option>
+                    <option value="0">2007</option>
+                    <option value="3">2013</option>
+                </select>
+            </div>
+            <div class="selectbox">
+                <h2>selecione sua resposta</h2>
+                <select id="resposta2">
+                    <option value="3">Enderdragon</option>
+                    <option value="0">Warder</option>
+                    <option value="0">Wither</option>
+                </select>
+            </div>
+            <div class="selectbox">
+                <h2>selecione sua resposta</h2>
+                <select id="resposta3">
+                    <option value="0">futebol</option>
+                    <option value="0">Xadrez</option>
+                    <option value="3">arremesso de anão</option>
+                </select>
+            </div>
+        </div>
+        <div class="pontuacao">
+            <label for="pont">Sua pontuação:</label>
+            <input id="pont" type="text">
+            <button onclick="clicar()">Finalizar quiz</button>
+        </div>
+        
+    </main>
+</body>
+</html>
